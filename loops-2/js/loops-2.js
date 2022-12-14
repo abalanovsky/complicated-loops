@@ -24,9 +24,11 @@ for (let i = 1; i <= 100; i++) {
 console.log(thirdMessage)
 
 // Loop 4
-const number = 8
-if (number === 1) {
-    console.log(`Loop 4: Number ${number} is NOT prime.`)
+const number = 0
+if (number === 0) {
+    console.log(`Loop 4: Number ${number} is not prime or composite`)
+} else if (number === 1) {
+    console.log(`Loop 4: Number ${number} is not prime or composite`)
 } else if (number === 2) {
     console.log(`Loop 4: Number ${number} is prime.`)
 } else {
