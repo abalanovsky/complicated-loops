@@ -59,10 +59,10 @@ for (let i = 30; i <= 80; i++) {
 console.log(`Loop 7: ${fifthMessage}`)
 
 // Loop 8
-let sixthMessage = 0
+let sixthMessage = ''
 for (let i = 100; i <= 200; i++) {
     if (i % 3 === 0) {
-        sixthMessage += i
+        sixthMessage += `${i} `
     }
 }
 console.log(`Loop 8: ${sixthMessage}`)
